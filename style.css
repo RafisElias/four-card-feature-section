@@ -48,7 +48,7 @@ html:focus-within {
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
-  padding: 2.25rem;
+  padding: 1rem;
   width: min(100%, 1141px);
   margin-inline: auto;
 }
@@ -282,10 +282,6 @@ footer {
 }
 
 @media screen and (min-width: 54rem) {
-  body {
-    padding-block-end: 0;
-  }
-
   main {
     grid-template-areas:
       "item-1 item-2 item-4"
